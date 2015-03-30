@@ -92,28 +92,28 @@ angular.module('PokerTimer')
 			}, 1000);
 
 			$scope.running = true;
-		}
+		};
 
 		$scope.stop = function () {
 			if (interval) {
 				$interval.cancel(interval);
 				$scope.running = false;
 			}
-		}
+		};
 
 		$scope.reset = function () {
 			$scope.stop();
 			setStartValues();
-		}
+		};
 	})
 	.controller('SecondaryToolbarController', function ($scope, invertColors, configVisible) {
 		$scope.toggleInvert = function () {
 			invertColors.value = !invertColors.value;
-		}
+		};
 
 		$scope.toggleConfig = function () {
 			configVisible.value = !configVisible.value;
-		}
+		};
 	})
 	.controller('ConfigController', function ($scope, config, configVisible) {
 		$scope.configVisible = configVisible;

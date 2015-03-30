@@ -1,0 +1,17 @@
+{
+  "name": "Poker-Blind-Timer",
+  "version": "0.1.0",
+  "description": "Easy to use Blind Timer.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snrlx/Poker-Blind-Timer.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "load-grunt-tasks": "~0.4.0",
+    "coffee-script": "~1.6.3"
+  }
+}

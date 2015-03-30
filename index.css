@@ -1,0 +1,37 @@
+#LatoBody{
+	font-family: 'Lato', sans-serif;
+	background-color: white;
+}
+
+#LatoBody.invert {
+	background-color: black;
+}
+
+.center{
+	text-align:center;
+}
+
+.invert {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%); 
+}
+
+.timer {
+	opacity: 1;
+}
+
+.timer.blink{
+	opacity: 0.2;
+}
+
+div.container {
+	padding-top: 10%;
+}
+
+button.button-small {
+	height: 22px;
+	padding: 0 15px;
+}
